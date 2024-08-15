@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Raleway, sans-serif;
+
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner {
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(9,27,35,0.927608543417367) 50%, rgba(0,0,0,1) 100%);
+  width: 1440px;
+  height: 605px;
+  gap: 0px;
+  border: 0px 0px 1px 0px;
+  opacity: 0px;
+  
+}
+
+.banner-content {
+  width: 1440px;
+  height: 80vh;
+  background-image: url("./assets/images/banner.png");
+  background-size: contain; /* Para que la imagen cubra toda la pantalla */  
+  background-repeat: no-repeat; /* Para que la imagen no se repita */  
+  background-position: left; /* Para centrar la imagen */  
+  opacity: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center; 
+  gap: 16px;
+  border-bottom: 1px solid #33A8DB;
+}
+
+.logo{
+  Width:268px;
+  Height:  268px;
+  margin-top: 27px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.219);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagem {
+  width: 248px;
+  height: 214px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+h1 {  
+  font-size: 50px;   
+  font-weight: bold;   
+  line-height: 46.96px;  
+  text-align: left;  
+  background: linear-gradient(to bottom, #33A8DB, #1472B7);  
+  -webkit-background-clip: text;  
+  color: transparent; /* Torna o texto transparente */  
+}  
+
+p{
+  width: 510px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.48px;
+  text-align: center;
+  color: #fff;
+}
+
+button {  
+  all: unset;
+  cursor: pointer;
+  width: Fixed (326px)px;
+  height: Hug (57px)px;
+  padding: 19px 91px 19px 91px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #31A8DD;
+  background-color: transparent; /* Fundo transparente */
+  border: 2px solid;
+  border-image: linear-gradient(180deg, #3BA1CD, #1572B7) 1;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 18.78px;
+  letter-spacing: 0.21em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 22px;
+}  
+
+button:hover {  
+  opacity: 0.2; /* Efeito de hover opcional, ajuste conforme necessário */  
+}  
+
+h2{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  letter-spacing: 0.19em;
+  text-align: center;
+  color: #33A8DB;
+  width: 1440px;
+  margin-top: 60px;
+  text-transform: uppercase;
+}
+
+#course-content p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.78px;
+  text-align: center;
+  margin-top:20px;
+  width: 792px;
+  }
+
+#course-content{
+  display: flex;
+  flex-direction:column;
+  width: 1440px;
+  align-items: center;
+  }
+
+.modules-list{
+  width: 792px;
+  display:flex;
+  flex-direction: column;
+  height: 250px;
+  gap: 16px;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+  }
+
+.module{
+  width: 535px;
+  height: 51px;
+  padding: 16px 27px;
+  border-radius: 57px;
+  border: 1px solid #33A8DB;
+  background-color:  #252525;
+  box-shadow: -2px 6px 4px 0px #00000066 inset;
+  color: #fff;
+}
+
+.module span{
+
+  color: #33A8DB;
+
+}
+
+
+.dio-logo{
+
+}
